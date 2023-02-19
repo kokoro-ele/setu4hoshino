@@ -7,7 +7,6 @@ from hoshino.modules.groupmaster.anti_lex import hour_call
 from .base import format_setu_msg
 from .lolicon import get_setu_online
 from .acggov import acggov_search_setu
-from .config import get_config, get_group_config
 from . import send_msg
 from .base import search_setu
 sv_help= '''
