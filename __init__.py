@@ -35,7 +35,7 @@ config_default = {
 		"night":"黑丝"
 	},
 	"lolicon": {
-		"mode": 2,  # 0禁用 1无缓存 2有缓存在线 3有缓存离线
+		"mode": 1,  # 0禁用 1无缓存 2有缓存在线 3有缓存离线
 		"r18": False,  # R18图开关
 		"use_thumb": True,  # 选取小图开关
 		"pixiv_direct": True,  # 是否直连pixiv
@@ -43,7 +43,7 @@ config_default = {
 		"local_proxy": ""  # lolicon代理地址
 	},
 	"acggov": {
-		"mode": 2,  # 0禁用 1无缓存 2有缓存在线 3有缓存离线
+		"mode": 1,  # 0禁用 1无缓存 2有缓存在线 3有缓存离线
 		"apikey": "",  # acggov API
 		"ranking_mode": "daily",  # 排行榜模式
 		"per_page": 25,  # 一米哇甘耐
